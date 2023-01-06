@@ -11,7 +11,7 @@ sub_units = {
 		
 		priority = 600
 		ai_priority = 200
-		active = no
+		active = yes
 
 		type = {
 			infantry
@@ -35,7 +35,7 @@ sub_units = {
 		manpower = 2
 
 		#Misc Abilities
-		training_time = 45
+		training_time = 10
 		suppression = 1.5
 		weight = 0.5
 		
