@@ -1,0 +1,9 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		262 2421 2555 2630 2762 3376 5098 5489 6032 6096 6148 6479 6778 7010 10389 
+	}
+	manpower = 3
+	state_category = rural
+}

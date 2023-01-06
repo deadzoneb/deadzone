@@ -1,0 +1,12 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		283 605 1269 2635 2905 3361 3875 4221 4324 5176 5312 5840 5919 6803 7780 10302 10326 10327 10341 10377 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = CRS
+		add_core_of = CRS
+}

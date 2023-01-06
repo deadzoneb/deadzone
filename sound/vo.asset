@@ -1,0 +1,2018 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+ 
+	SOV_infantry_idle
+	SOV_infantry_neutral_combat
+	SOV_infantry_positive_combat
+	SOV_infantry_retreat
+	SOV_infantry_move_out
+  	
+	GER_infantry_idle
+	GER_infantry_neutral_combat
+	GER_infantry_positive_combat
+	GER_infantry_retreat
+	GER_infantry_move_out
+	
+	ITA_infantry_idle
+	ITA_infantry_neutral_combat
+	ITA_infantry_positive_combat
+	ITA_infantry_retreat
+	ITA_infantry_move_out
+  
+	POL_infantry_idle
+	POL_infantry_neutral_combat
+	POL_infantry_positive_combat
+	POL_infantry_retreat
+	POL_infantry_move_out
+	
+	FRA_infantry_idle
+	FRA_infantry_neutral_combat
+	FRA_infantry_positive_combat
+	FRA_infantry_retreat
+	FRA_infantry_move_out
+
+	TST_infantry_idle
+	TST_infantry_neutral_combat
+	TST_infantry_positive_combat
+	TST_infantry_retreat
+	TST_infantry_move_out
+  
+  }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 3.0 #0
+	postgain = 3.0 #2
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 0.2 #1,2
+ }
+}
+
+
+########## SOV_BANDIT ########## 
+soundeffect = 
+{
+    name = "SOV_infantry_idle"
+    sounds = {
+		sound = SOV_Idle_01
+		sound = SOV_Idle_02
+		sound = SOV_Idle_03
+		sound = SOV_Idle_04
+		sound = SOV_Idle_06
+		sound = SOV_Idle_07
+		sound = SOV_Idle_08
+		sound = SOV_Idle_09
+		sound = SOV_Idle_10
+		sound = SOV_Idle_11
+		sound = SOV_Idle_12
+		sound = SOV_Idle_13
+		sound = SOV_Idle_14
+		sound = SOV_Idle_15
+		sound = SOV_Idle_16
+		sound = SOV_Idle_17
+		sound = SOV_Idle_18
+		sound = SOV_Idle_19
+		sound = SOV_Idle_20
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SOV_infantry_neutral_combat"
+    sounds = {
+	
+		sound = SOV_Combat_01
+		sound = SOV_Combat_02
+		sound = SOV_Combat_04
+		sound = SOV_Combat_05
+		sound = SOV_Combat_06
+		sound = SOV_Combat_07
+		sound = SOV_Combat_08
+		sound = SOV_Combat_09
+		sound = SOV_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SOV_infantry_positive_combat"
+    sounds = {
+        sound = SOV_Winning_01
+        sound = SOV_Winning_02
+        sound = SOV_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SOV_infantry_retreat"
+	sounds = {
+        sound = SOV_Retreat_01
+        sound = SOV_Retreat_02
+		sound = SOV_Retreat_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SOV_infantry_move_out"
+    sounds = {
+		sound = SOV_Move_01
+		sound = SOV_Move_02
+		sound = SOV_Move_03
+		sound = SOV_Move_04
+		sound = SOV_Move_05
+		sound = SOV_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+########## GER_dolg ########## 
+soundeffect = 
+{
+    name = "GER_infantry_idle"
+    sounds = {
+		sound = GER_Idle_01
+		sound = GER_Idle_02
+		sound = GER_Idle_03
+		sound = GER_Idle_04
+		sound = GER_Idle_06
+		sound = GER_Idle_07
+		sound = GER_Idle_08
+		sound = GER_Idle_09
+		sound = GER_Idle_10
+		sound = GER_Idle_11
+		sound = GER_Idle_12
+		sound = GER_Idle_13
+		sound = GER_Idle_14
+		sound = GER_Idle_15
+		sound = GER_Idle_16
+		sound = GER_Idle_17
+		sound = GER_Idle_18
+		sound = GER_Idle_19
+		sound = GER_Idle_20
+    
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "GER_infantry_neutral_combat"
+    sounds = {
+		sound = GER_Combat_01
+		sound = GER_Combat_02
+		sound = GER_Combat_04
+		sound = GER_Combat_05
+		sound = GER_Combat_06
+		sound = GER_Combat_07
+		sound = GER_Combat_08
+		sound = GER_Combat_09
+		sound = GER_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "GER_infantry_positive_combat"
+    sounds = {
+        sound = GER_Winning_01
+        sound = GER_Winning_02
+        sound = GER_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "GER_infantry_retreat"
+    sounds = {
+		sound = GER_Retreat_01
+		sound = GER_Retreat_02
+		sound = GER_Retreat_03
+	
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "GER_infantry_move_out"
+    sounds = {
+        sound = GER_Move_01
+		sound = GER_Move_02
+		sound = GER_Move_03
+		sound = GER_Move_04
+		sound = GER_Move_05
+		sound = GER_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## ITA_millitary ########## 
+soundeffect = 
+{
+    name = "ITA_infantry_idle"
+    sounds = {
+		sound = ITA_Idle_01
+		sound = ITA_Idle_02
+		sound = ITA_Idle_03
+		sound = ITA_Idle_04
+		sound = ITA_Idle_06
+		sound = ITA_Idle_07
+		sound = ITA_Idle_08
+		sound = ITA_Idle_09
+		sound = ITA_Idle_10
+		sound = ITA_Idle_11
+		sound = ITA_Idle_12
+		sound = ITA_Idle_13
+		sound = ITA_Idle_14
+		sound = ITA_Idle_15
+		sound = ITA_Idle_16
+		sound = ITA_Idle_17
+		sound = ITA_Idle_18
+		sound = ITA_Idle_19
+		sound = ITA_Idle_20
+    
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "ITA_infantry_neutral_combat"
+    sounds = {
+		sound = ITA_Combat_01
+		sound = ITA_Combat_02
+		sound = ITA_Combat_04
+		sound = ITA_Combat_05
+		sound = ITA_Combat_06
+		sound = ITA_Combat_07
+		sound = ITA_Combat_08
+		sound = ITA_Combat_09
+		sound = ITA_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "ITA_infantry_positive_combat"
+    sounds = {
+        sound = ITA_Winning_01
+        sound = ITA_Winning_02
+        sound = ITA_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "ITA_infantry_retreat"
+    sounds = {
+		sound = ITA_Retreat_01
+		sound = ITA_Retreat_02
+		sound = ITA_Retreat_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "ITA_infantry_move_out"
+    sounds = {
+		sound = ITA_Move_01
+		sound = ITA_Move_02
+		sound = ITA_Move_03
+		sound = ITA_Move_04
+		sound = ITA_Move_05
+		sound = ITA_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+########## POL_stalkers ########## 
+soundeffect = 
+{
+    name = "POL_infantry_idle"
+    sounds = {
+		sound = POL_Idle_01
+		sound = POL_Idle_02
+		sound = POL_Idle_03
+		sound = POL_Idle_04
+		sound = POL_Idle_06
+		sound = POL_Idle_07
+		sound = POL_Idle_08
+		sound = POL_Idle_09
+		sound = POL_Idle_10
+		sound = POL_Idle_11
+		sound = POL_Idle_12
+		sound = POL_Idle_13
+		sound = POL_Idle_14
+		sound = POL_Idle_15
+		sound = POL_Idle_16
+		sound = POL_Idle_17
+		sound = POL_Idle_18
+		sound = POL_Idle_19
+		sound = POL_Idle_20
+    
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "POL_infantry_neutral_combat"
+    sounds = {
+		sound = POL_Combat_01
+		sound = POL_Combat_02
+		sound = POL_Combat_04
+		sound = POL_Combat_05
+		sound = POL_Combat_06
+		sound = POL_Combat_07
+		sound = POL_Combat_08
+		sound = POL_Combat_09
+		sound = POL_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "POL_infantry_positive_combat"
+    sounds = {
+        sound = POL_Winning_01
+        sound = POL_Winning_02
+        sound = POL_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "POL_infantry_retreat"
+	sounds = {
+        sound = POL_Retreat_01
+        sound = POL_Retreat_02
+		sound = POL_Retreat_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "POL_infantry_move_out"
+    sounds = {
+		sound = POL_Move_01
+		sound = POL_Move_02
+		sound = POL_Move_03
+		sound = POL_Move_04
+		sound = POL_Move_05
+		sound = POL_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+########## FRA_freedom ########## 
+soundeffect = 
+{
+    name = "FRA_infantry_idle"
+    sounds = {
+		sound = FRA_Idle_01
+		sound = FRA_Idle_02
+		sound = FRA_Idle_03
+		sound = FRA_Idle_04
+		sound = FRA_Idle_06
+		sound = FRA_Idle_07
+		sound = FRA_Idle_08
+		sound = FRA_Idle_09
+		sound = FRA_Idle_10
+		sound = FRA_Idle_11
+		sound = FRA_Idle_12
+		sound = FRA_Idle_13
+		sound = FRA_Idle_14
+		sound = FRA_Idle_15
+		sound = FRA_Idle_16
+		sound = FRA_Idle_17
+		sound = FRA_Idle_18
+		sound = FRA_Idle_19
+		sound = FRA_Idle_20
+    
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "FRA_infantry_neutral_combat"
+    sounds = {
+	
+		sound = FRA_Combat_01
+		sound = FRA_Combat_02
+		sound = FRA_Combat_04
+		sound = FRA_Combat_05
+		sound = FRA_Combat_06
+		sound = FRA_Combat_07
+		sound = FRA_Combat_08
+		sound = FRA_Combat_09
+		sound = FRA_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "FRA_infantry_positive_combat"
+    sounds = {
+        sound = FRA_Winning_01
+        sound = FRA_Winning_02
+        sound = FRA_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "FRA_infantry_retreat"
+	sounds = {
+        sound = FRA_Retreat_01
+        sound = FRA_Retreat_02
+		sound = FRA_Retreat_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "FRA_infantry_move_out"
+    sounds = {
+		sound = FRA_Move_01
+		sound = FRA_Move_02
+		sound = FRA_Move_03
+		sound = FRA_Move_04
+		sound = FRA_Move_05
+		sound = FRA_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+########## TST_test ########## 
+soundeffect = 
+{
+    name = "TST_infantry_idle"
+    sounds = {
+		sound = TST_Idle_01
+		sound = TST_Idle_02
+		sound = TST_Idle_03
+		sound = TST_Idle_04
+		sound = TST_Idle_06
+		sound = TST_Idle_07
+		sound = TST_Idle_08
+		sound = TST_Idle_09
+		sound = TST_Idle_10
+		sound = TST_Idle_11
+		sound = TST_Idle_12
+		sound = TST_Idle_13
+		sound = TST_Idle_14
+		sound = TST_Idle_15
+		sound = TST_Idle_16
+		sound = TST_Idle_17
+		sound = TST_Idle_18
+		sound = TST_Idle_19
+		sound = TST_Idle_20
+    
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "TST_infantry_neutral_combat"
+    sounds = {
+		sound = TST_Combat_01
+		sound = TST_Combat_02
+		sound = TST_Combat_04
+		sound = TST_Combat_05
+		sound = TST_Combat_06
+		sound = TST_Combat_07
+		sound = TST_Combat_08
+		sound = TST_Combat_09
+		sound = TST_Combat_10
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "TST_infantry_positive_combat"
+    sounds = {
+        sound = TST_Winning_01
+        sound = TST_Winning_02
+        sound = TST_Winning_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "TST_infantry_retreat"
+    sounds = {
+		sound = TST_Retreat_01
+		sound = TST_Retreat_02
+		sound = TST_Retreat_03
+	
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.9
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "TST_infantry_move_out"
+    sounds = {
+        sound = TST_Move_01
+		sound = TST_Move_02
+		sound = TST_Move_03
+		sound = TST_Move_04
+		sound = TST_Move_05
+		sound = TST_Move_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.0
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+############## AUDIO ASSETS
+
+
+########### SOV
+sound = 
+{
+	name = "SOV_Idle_01"
+	file = "SOV/SOV_idle_01.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_02"
+	file = "SOV/SOV_idle_02.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_03"
+	file = "SOV/SOV_idle_03.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_04"
+	file = "SOV/SOV_idle_04.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_05"
+	file = "SOV/SOV_idle_05.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_06"
+	file = "SOV/SOV_idle_06.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_07"
+	file = "SOV/SOV_idle_07.wav"
+}
+sound = 
+{
+	name = "SOV_Idle_08"
+	file = "SOV/SOV_idle_08.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_09"
+	file = "SOV/SOV_idle_09.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_10"
+	file = "SOV/SOV_idle_10.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_11"
+	file = "SOV/SOV_idle_11.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_12"
+	file = "SOV/SOV_idle_12.wav"	
+}	
+sound = 
+{
+	name = "SOV_Idle_13"
+	file = "SOV/SOV_idle_13.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_14"
+	file = "SOV/SOV_idle_14.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_15"
+	file = "SOV/SOV_idle_15.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_16"
+	file = "SOV/SOV_idle_16.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_17"
+	file = "SOV/SOV_idle_17.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_18"
+	file = "SOV/SOV_idle_18.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_19"
+	file = "SOV/SOV_idle_19.wav"
+}	
+sound = 
+{
+	name = "SOV_Idle_20"
+	file = "SOV/SOV_idle_20.wav"
+}
+
+
+sound = 
+{
+	name = "SOV_Winning_01"
+	file = "SOV/SOV_Winning_01.wav"
+}
+sound = 
+{
+	name = "SOV_Winning_02"
+	file = "SOV/SOV_Winning_02.wav"
+}
+sound = 
+{
+	name = "SOV_Winning_03"
+	file = "SOV/SOV_Winning_03.wav"
+}
+
+
+sound = 
+{
+	name = "SOV_Retreat_01"
+	file = "SOV/SOV_retreat_01.wav"
+}
+sound = 
+{
+	name = "SOV_Retreat_02"
+	file = "SOV/SOV_retreat_02.wav"
+}
+sound = 
+{
+	name = "SOV_Retreat_03"
+	file = "SOV/SOV_retreat_03.wav"
+}
+
+
+sound = 
+{
+	name = "SOV_Combat_01"
+	file = "SOV/SOV_combat_01.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_02"
+	file = "SOV/SOV_combat_02.wav"
+}
+
+sound = 
+{
+	name = "SOV_Combat_04"
+	file = "SOV/SOV_combat_04.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_05"
+	file = "SOV/SOV_combat_05.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_06"
+	file = "SOV/SOV_combat_06.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_07"
+	file = "SOV/SOV_combat_07.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_08"
+	file = "SOV/SOV_combat_08.wav"	
+}
+sound = 
+{
+	name = "SOV_Combat_09"
+	file = "SOV/SOV_combat_09.wav"
+}
+sound = 
+{
+	name = "SOV_Combat_10"
+	file = "SOV/SOV_combat_10.wav"	
+}
+
+
+sound = 
+{
+	name = "SOV_Move_01"
+	file = "SOV/SOV_move_01.wav"
+}
+sound = 
+{
+	name = "SOV_Move_02"
+	file = "SOV/SOV_move_02.wav"
+}
+sound = 
+{
+	name = "SOV_Move_03"
+	file = "SOV/SOV_move_03.wav"
+}
+sound = 
+{
+	name = "SOV_Move_04"
+	file = "SOV/SOV_move_04.wav"
+}
+sound = 
+{
+	name = "SOV_Move_05"
+	file = "SOV/SOV_move_05.wav"
+}
+sound = 
+{
+	name = "SOV_Move_06"
+	file = "SOV/SOV_move_06.wav"
+}
+
+
+########### GER
+
+sound = 
+{
+	name = "GER_Idle_01"
+	file = "GER/GER_idle_01.wav"
+}
+sound = 
+{
+	name = "GER_Idle_02"
+	file = "GER/GER_idle_02.wav"
+}
+sound = 
+{
+	name = "GER_Idle_03"
+	file = "GER/GER_idle_03.wav"
+}
+sound = 
+{
+	name = "GER_Idle_04"
+	file = "GER/GER_idle_04.wav"
+}
+sound = 
+{
+	name = "GER_Idle_05"
+	file = "GER/GER_idle_05.wav"
+}
+sound = 
+{
+	name = "GER_Idle_06"
+	file = "GER/GER_idle_06.wav"
+}
+sound = 
+{
+	name = "GER_Idle_07"
+	file = "GER/GER_idle_07.wav"
+}
+sound = 
+{
+	name = "GER_Idle_08"
+	file = "GER/GER_idle_08.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_09"
+	file = "GER/GER_idle_09.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_10"
+	file = "GER/GER_idle_10.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_11"
+	file = "GER/GER_idle_11.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_12"
+	file = "GER/GER_idle_12.wav"	
+}	
+sound = 
+{
+	name = "GER_Idle_13"
+	file = "GER/GER_idle_13.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_14"
+	file = "GER/GER_idle_14.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_15"
+	file = "GER/GER_idle_15.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_16"
+	file = "GER/GER_idle_16.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_17"
+	file = "GER/GER_idle_17.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_18"
+	file = "GER/GER_idle_18.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_19"
+	file = "GER/GER_idle_19.wav"
+}	
+sound = 
+{
+	name = "GER_Idle_20"
+	file = "GER/GER_idle_20.wav"
+}
+
+
+
+sound = 
+{
+	name = "GER_Winning_01"
+	file = "GER/GER_Winning_01.wav"
+}
+sound = 
+{
+	name = "GER_Winning_02"
+	file = "GER/GER_Winning_02.wav"
+}
+sound = 
+{
+	name = "GER_Winning_03"
+	file = "GER/GER_Winning_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "GER_Retreat_01"
+	file = "GER/GER_retreat_01.wav"
+}
+sound = 
+{
+	name = "GER_Retreat_02"
+	file = "GER/GER_retreat_02.wav"
+}
+sound = 
+{
+	name = "GER_Retreat_03"
+	file = "GER/GER_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "GER_Combat_01"
+	file = "GER/GER_combat_01.wav"
+}
+sound = 
+{
+	name = "GER_Combat_02"
+	file = "GER/GER_combat_02.wav"
+}
+sound = 
+{	
+	name = "GER_Combat_03"
+	file = "GER/GER_combat_03.wav"
+}
+sound = 
+{
+	name = "GER_Combat_04"
+	file = "GER/GER_combat_04.wav"
+}
+sound = 
+{
+	name = "GER_Combat_05"
+	file = "GER/GER_combat_05.wav"
+}
+sound = 
+{
+	name = "GER_Combat_06"
+	file = "GER/GER_combat_06.wav"
+}
+sound = 
+{
+	name = "GER_Combat_07"
+	file = "GER/GER_combat_07.wav"
+}
+sound = 
+{
+	name = "GER_Combat_08"
+	file = "GER/GER_combat_08.wav"	
+}
+sound = 
+{
+	name = "GER_Combat_09"
+	file = "GER/GER_combat_09.wav"
+}
+sound = 
+{
+	name = "GER_Combat_10"
+	file = "GER/GER_combat_10.wav"	
+}
+
+
+
+sound = 
+{
+	name = "GER_Move_01"
+	file = "GER/GER_move_01.wav"
+}
+sound = 
+{
+	name = "GER_Move_02"
+	file = "GER/GER_move_02.wav"
+}
+sound = 
+{
+	name = "GER_Move_03"
+	file = "GER/GER_move_03.wav"
+}
+sound = 
+{
+	name = "GER_Move_04"
+	file = "GER/GER_move_04.wav"
+}
+sound = 
+{
+	name = "GER_Move_05"
+	file = "GER/GER_move_05.wav"
+}
+sound = 
+{
+	name = "GER_Move_06"
+	file = "GER/GER_move_06.wav"
+}
+
+
+########### ITA
+
+sound = 
+{
+	name = "ITA_Idle_01"
+	file = "ITA/ITA_idle_01.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_02"
+	file = "ITA/ITA_idle_02.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_03"
+	file = "ITA/ITA_idle_03.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_04"
+	file = "ITA/ITA_idle_04.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_05"
+	file = "ITA/ITA_idle_05.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_06"
+	file = "ITA/ITA_idle_06.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_07"
+	file = "ITA/ITA_idle_07.wav"
+}
+sound = 
+{
+	name = "ITA_Idle_08"
+	file = "ITA/ITA_idle_08.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_09"
+	file = "ITA/ITA_idle_09.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_10"
+	file = "ITA/ITA_idle_10.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_11"
+	file = "ITA/ITA_idle_11.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_12"
+	file = "ITA/ITA_idle_12.wav"	
+}	
+sound = 
+{
+	name = "ITA_Idle_13"
+	file = "ITA/ITA_idle_13.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_14"
+	file = "ITA/ITA_idle_14.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_15"
+	file = "ITA/ITA_idle_15.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_16"
+	file = "ITA/ITA_idle_16.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_17"
+	file = "ITA/ITA_idle_17.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_18"
+	file = "ITA/ITA_idle_18.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_19"
+	file = "ITA/ITA_idle_19.wav"
+}	
+sound = 
+{
+	name = "ITA_Idle_20"
+	file = "ITA/ITA_idle_20.wav"
+}
+
+
+
+sound = 
+{
+	name = "ITA_Winning_01"
+	file = "ITA/ITA_Winning_01.wav"
+}
+sound = 
+{
+	name = "ITA_Winning_02"
+	file = "ITA/ITA_Winning_02.wav"
+}
+sound = 
+{
+	name = "ITA_Winning_03"
+	file = "ITA/ITA_Winning_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "ITA_Retreat_01"
+	file = "ITA/ITA_retreat_01.wav"
+}
+sound = 
+{
+	name = "ITA_Retreat_02"
+	file = "ITA/ITA_retreat_02.wav"
+}
+sound = 
+{
+	name = "ITA_Retreat_03"
+	file = "ITA/ITA_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "ITA_Combat_01"
+	file = "ITA/ITA_combat_01.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_02"
+	file = "ITA/ITA_combat_02.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_03"
+	file = "ITA/ITA_combat_03.wav"
+}
+sound = 
+{	
+	name = "ITA_Combat_04"
+	file = "ITA/ITA_combat_04.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_05"
+	file = "ITA/ITA_combat_05.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_06"
+	file = "ITA/ITA_combat_06.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_07"
+	file = "ITA/ITA_combat_07.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_08"
+	file = "ITA/ITA_combat_08.wav"	
+}
+sound = 
+{
+	name = "ITA_Combat_09"
+	file = "ITA/ITA_combat_09.wav"
+}
+sound = 
+{
+	name = "ITA_Combat_10"
+	file = "ITA/ITA_combat_10.wav"	
+}
+
+
+
+sound = 
+{
+	name = "ITA_Move_01"
+	file = "ITA/ITA_move_01.wav"
+}
+sound = 
+{
+	name = "ITA_Move_02"
+	file = "ITA/ITA_move_02.wav"
+}
+sound = 
+{
+	name = "ITA_Move_03"
+	file = "ITA/ITA_move_03.wav"
+}
+sound = 
+{
+	name = "ITA_Move_04"
+	file = "ITA/ITA_move_04.wav"
+}
+sound = 
+{
+	name = "ITA_Move_05"
+	file = "ITA/ITA_move_05.wav"
+}
+sound = 
+{
+	name = "ITA_Move_06"
+	file = "ITA/ITA_move_06.wav"
+}
+
+
+########### POL
+
+sound = 
+{
+	name = "POL_Idle_01"
+	file = "POL/POL_idle_01.wav"
+}
+sound = 
+{
+	name = "POL_Idle_02"
+	file = "POL/POL_idle_02.wav"
+}
+sound = 
+{
+	name = "POL_Idle_03"
+	file = "POL/POL_idle_03.wav"
+}
+sound = 
+{
+	name = "POL_Idle_04"
+	file = "POL/POL_idle_04.wav"
+}
+sound = 
+{
+	name = "POL_Idle_05"
+	file = "POL/POL_idle_05.wav"
+}
+sound = 
+{
+	name = "POL_Idle_06"
+	file = "POL/POL_idle_06.wav"
+}
+sound = 
+{
+	name = "POL_Idle_07"
+	file = "POL/POL_idle_07.wav"
+}
+sound = 
+{
+	name = "POL_Idle_08"
+	file = "POL/POL_idle_08.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_09"
+	file = "POL/POL_idle_09.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_10"
+	file = "POL/POL_idle_10.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_11"
+	file = "POL/POL_idle_11.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_12"
+	file = "POL/POL_idle_12.wav"	
+}	
+sound = 
+{
+	name = "POL_Idle_13"
+	file = "POL/POL_idle_13.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_14"
+	file = "POL/POL_idle_14.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_15"
+	file = "POL/POL_idle_15.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_16"
+	file = "POL/POL_idle_16.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_17"
+	file = "POL/POL_idle_17.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_18"
+	file = "POL/POL_idle_18.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_19"
+	file = "POL/POL_idle_19.wav"
+}	
+sound = 
+{
+	name = "POL_Idle_20"
+	file = "POL/POL_idle_20.wav"
+}
+
+
+
+sound = 
+{
+	name = "POL_Winning_01"
+	file = "POL/POL_Winning_01.wav"
+}
+sound = 
+{
+	name = "POL_Winning_02"
+	file = "POL/POL_Winning_02.wav"
+}
+sound = 
+{
+	name = "POL_Winning_03"
+	file = "POL/POL_Winning_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "POL_Retreat_01"
+	file = "POL/POL_retreat_01.wav"
+}
+sound = 
+{
+	name = "POL_Retreat_02"
+	file = "POL/POL_retreat_02.wav"
+}
+sound = 
+{
+	name = "POL_Retreat_03"
+	file = "POL/POL_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "POL_Combat_01"
+	file = "POL/POL_combat_01.wav"
+}
+sound = 
+{
+	name = "POL_Combat_02"
+	file = "POL/POL_combat_02.wav"
+}
+sound = 
+{	
+	name = "POL_Combat_03"
+	file = "POL/POL_combat_03.wav"
+}
+sound = 
+{
+	name = "POL_Combat_04"
+	file = "POL/POL_combat_04.wav"
+}
+sound = 
+{
+	name = "POL_Combat_05"
+	file = "POL/POL_combat_05.wav"
+}
+sound = 
+{
+	name = "POL_Combat_06"
+	file = "POL/POL_combat_06.wav"
+}
+sound = 
+{
+	name = "POL_Combat_07"
+	file = "POL/POL_combat_07.wav"
+}
+sound = 
+{
+	name = "POL_Combat_08"
+	file = "POL/POL_combat_08.wav"	
+}
+sound = 
+{
+	name = "POL_Combat_09"
+	file = "POL/POL_combat_09.wav"
+}
+sound = 
+{
+	name = "POL_Combat_10"
+	file = "POL/POL_combat_10.wav"	
+}
+
+
+
+sound = 
+{
+	name = "POL_Move_01"
+	file = "POL/POL_move_01.wav"
+}
+sound = 
+{
+	name = "POL_Move_02"
+	file = "POL/POL_move_02.wav"
+}
+sound = 
+{
+	name = "POL_Move_03"
+	file = "POL/POL_move_03.wav"
+}
+sound = 
+{
+	name = "POL_Move_04"
+	file = "POL/POL_move_04.wav"
+}
+sound = 
+{
+	name = "POL_Move_05"
+	file = "POL/POL_move_05.wav"
+}
+sound = 
+{
+	name = "POL_Move_06"
+	file = "POL/POL_move_06.wav"
+}
+
+
+########### FRA
+
+sound = 
+{
+	name = "FRA_Idle_01"
+	file = "FRA/FRA_idle_01.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_02"
+	file = "FRA/FRA_idle_02.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_03"
+	file = "FRA/FRA_idle_03.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_04"
+	file = "FRA/FRA_idle_04.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_05"
+	file = "FRA/FRA_idle_05.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_06"
+	file = "FRA/FRA_idle_06.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_07"
+	file = "FRA/FRA_idle_07.wav"
+}
+sound = 
+{
+	name = "FRA_Idle_08"
+	file = "FRA/FRA_idle_08.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_09"
+	file = "FRA/FRA_idle_09.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_10"
+	file = "FRA/FRA_idle_10.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_11"
+	file = "FRA/FRA_idle_11.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_12"
+	file = "FRA/FRA_idle_12.wav"	
+}	
+sound = 
+{
+	name = "FRA_Idle_13"
+	file = "FRA/FRA_idle_13.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_14"
+	file = "FRA/FRA_idle_14.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_15"
+	file = "FRA/FRA_idle_15.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_16"
+	file = "FRA/FRA_idle_16.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_17"
+	file = "FRA/FRA_idle_17.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_18"
+	file = "FRA/FRA_idle_18.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_19"
+	file = "FRA/FRA_idle_19.wav"
+}	
+sound = 
+{
+	name = "FRA_Idle_20"
+	file = "FRA/FRA_idle_20.wav"
+}
+
+
+
+sound = 
+{
+	name = "FRA_Winning_01"
+	file = "FRA/FRA_Winning_01.wav"
+}
+sound = 
+{
+	name = "FRA_Winning_02"
+	file = "FRA/FRA_Winning_02.wav"
+}
+sound = 
+{
+	name = "FRA_Winning_03"
+	file = "FRA/FRA_Winning_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "FRA_Retreat_01"
+	file = "FRA/FRA_retreat_01.wav"
+}
+sound = 
+{
+	name = "FRA_Retreat_02"
+	file = "FRA/FRA_retreat_02.wav"
+}
+sound = 
+{
+	name = "FRA_Retreat_03"
+	file = "FRA/FRA_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "FRA_Combat_01"
+	file = "FRA/FRA_combat_01.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_02"
+	file = "FRA/FRA_combat_02.wav"
+}
+
+sound = 
+{
+	name = "FRA_Combat_04"
+	file = "FRA/FRA_combat_04.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_05"
+	file = "FRA/FRA_combat_05.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_06"
+	file = "FRA/FRA_combat_06.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_07"
+	file = "FRA/FRA_combat_07.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_08"
+	file = "FRA/FRA_combat_08.wav"	
+}
+sound = 
+{
+	name = "FRA_Combat_09"
+	file = "FRA/FRA_combat_09.wav"
+}
+sound = 
+{
+	name = "FRA_Combat_10"
+	file = "FRA/FRA_combat_10.wav"	
+}
+
+
+
+sound = 
+{
+	name = "FRA_Move_01"
+	file = "FRA/FRA_move_01.wav"
+}
+sound = 
+{
+	name = "FRA_Move_02"
+	file = "FRA/FRA_move_02.wav"
+}
+sound = 
+{
+	name = "FRA_Move_03"
+	file = "FRA/FRA_move_03.wav"
+}
+sound = 
+{
+	name = "FRA_Move_04"
+	file = "FRA/FRA_move_04.wav"
+}
+sound = 
+{
+	name = "FRA_Move_05"
+	file = "FRA/FRA_move_05.wav"
+}
+sound = 
+{
+	name = "FRA_Move_06"
+	file = "FRA/FRA_move_06.wav"
+}
+
+
+########### TST
+
+sound = 
+{
+	name = "TST_Idle_01"
+	file = "TST/TST_idle_01.wav"
+}
+sound = 
+{
+	name = "TST_Idle_02"
+	file = "TST/TST_idle_02.wav"
+}
+sound = 
+{
+	name = "TST_Idle_03"
+	file = "TST/TST_idle_03.wav"
+}
+sound = 
+{
+	name = "TST_Idle_04"
+	file = "TST/TST_idle_04.wav"
+}
+sound = 
+{
+	name = "TST_Idle_05"
+	file = "TST/TST_idle_05.wav"
+}
+sound = 
+{
+	name = "TST_Idle_06"
+	file = "TST/TST_idle_06.wav"
+}
+sound = 
+{
+	name = "TST_Idle_07"
+	file = "TST/TST_idle_07.wav"
+}
+sound = 
+{
+	name = "TST_Idle_08"
+	file = "TST/TST_idle_08.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_09"
+	file = "TST/TST_idle_09.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_10"
+	file = "TST/TST_idle_10.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_11"
+	file = "TST/TST_idle_11.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_12"
+	file = "TST/TST_idle_12.wav"	
+}	
+sound = 
+{
+	name = "TST_Idle_13"
+	file = "TST/TST_idle_13.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_14"
+	file = "TST/TST_idle_14.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_15"
+	file = "TST/TST_idle_15.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_16"
+	file = "TST/TST_idle_16.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_17"
+	file = "TST/TST_idle_17.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_18"
+	file = "TST/TST_idle_18.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_19"
+	file = "TST/TST_idle_19.wav"
+}	
+sound = 
+{
+	name = "TST_Idle_20"
+	file = "TST/TST_idle_20.wav"
+}
+
+
+
+sound = 
+{
+	name = "TST_Winning_01"
+	file = "TST/TST_Winning_01.wav"
+}
+sound = 
+{
+	name = "TST_Winning_02"
+	file = "TST/TST_Winning_02.wav"
+}
+sound = 
+{
+	name = "TST_Winning_03"
+	file = "TST/TST_Winning_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "TST_Retreat_01"
+	file = "TST/TST_retreat_01.wav"
+}
+sound = 
+{
+	name = "TST_Retreat_02"
+	file = "TST/TST_retreat_02.wav"
+}
+sound = 
+{
+	name = "TST_Retreat_03"
+	file = "TST/TST_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "TST_Combat_01"
+	file = "TST/TST_combat_01.wav"
+}
+sound = 
+{
+	name = "TST_Combat_02"
+	file = "TST/TST_combat_02.wav"
+}
+sound = 
+{	
+	name = "TST_Combat_03"
+	file = "TST/TST_combat_03.wav"
+}
+sound = 
+{
+	name = "TST_Combat_04"
+	file = "TST/TST_combat_04.wav"
+}
+sound = 
+{
+	name = "TST_Combat_05"
+	file = "TST/TST_combat_05.wav"
+}
+sound = 
+{
+	name = "TST_Combat_06"
+	file = "TST/TST_combat_06.wav"
+}
+sound = 
+{
+	name = "TST_Combat_07"
+	file = "TST/TST_combat_07.wav"
+}
+sound = 
+{
+	name = "TST_Combat_08"
+	file = "TST/TST_combat_08.wav"	
+}
+sound = 
+{
+	name = "TST_Combat_09"
+	file = "TST/TST_combat_09.wav"
+}
+sound = 
+{
+	name = "TST_Combat_10"
+	file = "TST/TST_combat_10.wav"	
+}
+
+
+
+sound = 
+{
+	name = "TST_Move_01"
+	file = "TST/TST_move_01.wav"
+}
+sound = 
+{
+	name = "TST_Move_02"
+	file = "TST/TST_move_02.wav"
+}
+sound = 
+{
+	name = "TST_Move_03"
+	file = "TST/TST_move_03.wav"
+}
+sound = 
+{
+	name = "TST_Move_04"
+	file = "TST/TST_move_04.wav"
+}
+sound = 
+{
+	name = "TST_Move_05"
+	file = "TST/TST_move_05.wav"
+}
+sound = 
+{
+	name = "TST_Move_06"
+	file = "TST/TST_move_06.wav"
+}
