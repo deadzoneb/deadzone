@@ -10,5 +10,4 @@ state={
 		owner = CRS
 		victory_points = { 2709 1 }
 		add_core_of = CRS
-	}
 }

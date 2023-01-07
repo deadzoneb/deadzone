@@ -1,27 +1,18 @@
-state = {
-	id = 436
-	name = "STATE_436"
+state={
+	id=436
+	name="STATE_436"
+	provinces={
+		596 880 1234 1432 1883 2263 2717 3080 4007 4458 4525 6097 6179 6378 7116 7723 10312 10321 10343 10361 10365 10391 10401 10419 10430 
+	}
 	manpower = 18
-	
 	state_category = rural
-
-	history = {
-		victory_points = {
-			880 25
-		}
+	history={
 		owner = CRS
-		compliance = 100
+		victory_points = { 880 10 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 2
 			arms_factory = 1
+			industrial_complex = 1
 		}
 		add_core_of = CRS
-	}
-
-	provinces = {
-		596 880 1234 1432 1883 2263 2717 3080 4007 4458 4525 6097 6179 6378 7116 7723 10312 10321 10343 10361 10365 10391 10401 10419 10430
-	}
-
-	local_supplies = 6.0 
 }
