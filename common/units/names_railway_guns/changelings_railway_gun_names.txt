@@ -1,0 +1,110 @@
+﻿BATTAREYA = {
+	for_countries = { 
+			TST
+			VSD
+			REN
+			CRS
+			PSY
+			NTS
+			YAG
+			DPS
+			MNT
+			FRE
+			ECO
+			MER
+			OCS
+			MIL
+			PSD
+			DSD
+			DUT
+			OGP
+			SIN
+			HTS
+			MDS
+			STS
+			MSE
+			BSD
+			JKG
+			SKG
+			SCS
+			SNS 
+			NSD 
+			SSD 
+			SNG 
+			LON 
+			JSD 
+			D01 
+			D02 
+			D03 
+			D04 
+			D05 
+			D06 
+			D07 
+			D08 
+			D09 
+			D10 
+			D11 
+			D12 
+			D13 
+			D14 
+			D15 
+			D16 
+			D17 
+			D18 
+			D19 
+			D20 
+			D21 
+			D22 
+			D23 
+			D24 
+			D25 
+			D26 
+			D27 
+			D28 
+			D29 
+			D30 
+			D31 
+			D32 
+			D33 
+			D34 
+			D35 
+			D36 
+			D37 
+			D38 
+			D39 
+			D40 
+			D41 
+			D42 
+			D43 
+			D44 
+			D45 
+			D46 
+			D47 
+			D48 
+			D49 
+			D50
+
+	}
+	type = railway_gun
+	
+	fallback_name = "%d Super Heavy Battery RA"
+
+	ordered = {
+		1 = {"%dst Independent Super Heavy Battery, RA"}
+		2 = {"%dnd Independent Super Heavy Battery, RA"}
+		5 = {"%d Super Heavy Battery, RA"}
+		7 = {"%d Super Heavy Battery, RA"}
+		8 = {"%d Super Heavy Battery, RA"}
+		11 = {"%d Super Heavy Battery, RA"}
+		12 = {"%d Super Heavy Battery, RA"}
+		4 = {"%d Super Heavy Battery, RA"}
+		13 = {"%d Super Heavy Battery, RA"}
+		9 = {"B Battery, Royal Marine Siege Regiment"}
+		3 = {"X Super Heavy Battery, RCA"}
+		6 = {"Y Super Heavy Battery, RCA"}
+		15 = {"%d Super Heavy Battery, RA"}
+		17 = {"%d Super Heavy Battery, RA"}
+		
+	}
+}
+

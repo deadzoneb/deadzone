@@ -19,8 +19,8 @@ units = {
 		location = 880
 		division_template = "Clear Sky Squad"
 		start_experience_factor = 0.25
-		start_equipment_factor = 1.00
-		start_manpower_factor = 1.00
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 
 	}
 }	
@@ -35,4 +35,3 @@ add_equipment_production = {
 	efficiency = 100
 
 	}
-}
