@@ -1,4 +1,4 @@
-capital = 370
+capital = 402
 
 oob = "DUT_2005"
 

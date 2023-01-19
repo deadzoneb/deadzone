@@ -1,0 +1,17 @@
+bookmarks = {
+	bookmark = {
+		name = "ANXIETY_IS_GROWING_NAME"
+		desc = "ANXIETY_IS_GROWING_DESC"
+		date = 2005.8.14.12
+		picture = "GFX_select_date_2005"
+		default_country = "CRS"
+	
+		CRS = {
+			history = CRS_ANXIETY_IS_GROWING_DESC
+			ideology = science
+			ideas = {}
+			focuses = {}
+		
+		}
+	}
+}

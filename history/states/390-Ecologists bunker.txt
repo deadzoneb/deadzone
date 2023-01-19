@@ -1,0 +1,13 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		342 721 1057 1866 2498 2702 2895 3223 3924 4486 5896 5949 5964 6446 6846 6995 7297 7477 10083 10145 
+	}
+	manpower = 36
+	state_category = rural
+	history={
+		owner = ECO
+		victory_points = { 3924 10 }
+		add_core_of = ECO
+}

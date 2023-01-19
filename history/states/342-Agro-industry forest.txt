@@ -1,0 +1,12 @@
+state={
+	id=342
+	name="STATE_342"
+	provinces={
+		922 928 1249 1738 2073 2148 2206 2257 2641 2677 3116 3228 4021 4027 4144 4504 4524 5365 6363 6551 6875 6917 7077 7208 7765 9818 9831 9892 9893 
+	}
+	manpower = 5
+	state_category = rural
+	history={
+		owner = DUT
+		add_core_of = DUT
+}

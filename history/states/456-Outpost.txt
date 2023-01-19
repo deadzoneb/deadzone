@@ -2,9 +2,9 @@ state={
 	id=456
 	name="STATE_456"
 	provinces={
-		14 799 822 2016 2709 3106 4987 5121 5281 6149 6513 6713 6729 7218 7430 10399 
+		14 799 822 2709 3106 4987 5121 5281 6149 6513 6713 7218 7430 10399 
 	}
-	manpower = 6
+	manpower = 20
 	state_category = rural
 	history={
 		owner = CRS

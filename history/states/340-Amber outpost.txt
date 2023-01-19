@@ -1,0 +1,13 @@
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		560 702 915 1349 1703 2468 3016 4394 4750 6355 6587 7369 7401 9822 9841 9861 9875 9899 
+	}
+	manpower = 13
+	state_category = rural
+	history={
+		owner = ECO
+		victory_points = { 9861 1 }
+		add_core_of = ECO
+}

@@ -1,0 +1,12 @@
+bookmarks = {
+	bookmark = {
+		name = "GROUP_WAR_NAME"
+		desc = "GROUP_WAR_DESC"
+		date = 2010.1.1.12
+		picture = "GFX_select_date_2010"
+		default_country = ""
+		default = yes
+	
+		}
+	}
+}

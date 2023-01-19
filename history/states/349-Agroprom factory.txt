@@ -1,0 +1,13 @@
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		100 633 728 1677 2077 3265 3360 3505 3821 4060 4142 4388 4648 5801 6988 7763 7865 7868 9862 9939 9972 10003 10016 10047 10111 
+	}
+	manpower = 63
+	state_category = rural
+	history={
+		owner = OGP
+		victory_points = { 633 25 }
+		add_core_of = OGP
+}
