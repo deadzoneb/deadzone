@@ -1,0 +1,13 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		411 691 794 1770 2547 2593 2665 3518 4019 4124 4159 4644 6027 6749 6949 6981 7299 9309 9311 9378 9419 
+	}
+	manpower = 13
+	state_category = rural
+	history={
+		owner = NTS
+		victory_points = { 794 1 }
+		add_core_of = NTS
+}

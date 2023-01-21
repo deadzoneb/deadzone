@@ -34,11 +34,11 @@ category =
 	FRA_infantry_retreat
 	FRA_infantry_move_out
 
-	TST_infantry_idle
-	TST_infantry_neutral_combat
-	TST_infantry_positive_combat
-	TST_infantry_retreat
-	TST_infantry_move_out
+	YAG_infantry_idle
+	YAG_infantry_neutral_combat
+	YAG_infantry_positive_combat
+	YAG_infantry_retreat
+	YAG_infantry_move_out
   
   }
   compressor = 
@@ -569,30 +569,20 @@ soundeffect =
 }
 
 
-########## TST_test ########## 
+########## YAG_test ########## 
 soundeffect = 
 {
-    name = "TST_infantry_idle"
+    name = "YAG_infantry_idle"
     sounds = {
-		sound = TST_Idle_01
-		sound = TST_Idle_02
-		sound = TST_Idle_03
-		sound = TST_Idle_04
-		sound = TST_Idle_06
-		sound = TST_Idle_07
-		sound = TST_Idle_08
-		sound = TST_Idle_09
-		sound = TST_Idle_10
-		sound = TST_Idle_11
-		sound = TST_Idle_12
-		sound = TST_Idle_13
-		sound = TST_Idle_14
-		sound = TST_Idle_15
-		sound = TST_Idle_16
-		sound = TST_Idle_17
-		sound = TST_Idle_18
-		sound = TST_Idle_19
-		sound = TST_Idle_20
+		sound = YAG_Idle_01
+		sound = YAG_Idle_02
+		sound = YAG_Idle_03
+		sound = YAG_Idle_04
+		sound = YAG_Idle_06
+		sound = YAG_Idle_07
+		sound = YAG_Idle_08
+		sound = YAG_Idle_09
+		sound = YAG_Idle_10
     
 	}
 	max_audible = 1
@@ -603,17 +593,13 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "TST_infantry_neutral_combat"
+    name = "YAG_infantry_neutral_combat"
     sounds = {
-		sound = TST_Combat_01
-		sound = TST_Combat_02
-		sound = TST_Combat_04
-		sound = TST_Combat_05
-		sound = TST_Combat_06
-		sound = TST_Combat_07
-		sound = TST_Combat_08
-		sound = TST_Combat_09
-		sound = TST_Combat_10
+		sound = YAG_Combat_01
+		sound = YAG_Combat_02
+		sound = YAG_Combat_03
+		sound = YAG_Combat_04
+		sound = YAG_Combat_05
 
     }
 	max_audible = 1
@@ -624,11 +610,11 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "TST_infantry_positive_combat"
+    name = "YAG_infantry_positive_combat"
     sounds = {
-        sound = TST_Winning_01
-        sound = TST_Winning_02
-        sound = TST_Winning_03
+        sound = YAG_Winning_01
+        sound = YAG_Winning_02
+        sound = YAG_Winning_03
 
     }
 	max_audible = 1
@@ -639,11 +625,11 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "TST_infantry_retreat"
+    name = "YAG_infantry_retreat"
     sounds = {
-		sound = TST_Retreat_01
-		sound = TST_Retreat_02
-		sound = TST_Retreat_03
+		sound = YAG_Retreat_01
+		sound = YAG_Retreat_02
+		sound = YAG_Retreat_03
 	
 	}
 	max_audible = 1
@@ -654,14 +640,14 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "TST_infantry_move_out"
+    name = "YAG_infantry_move_out"
     sounds = {
-        sound = TST_Move_01
-		sound = TST_Move_02
-		sound = TST_Move_03
-		sound = TST_Move_04
-		sound = TST_Move_05
-		sound = TST_Move_06
+        sound = YAG_Move_01
+		sound = YAG_Move_02
+		sound = YAG_Move_03
+		sound = YAG_Move_04
+		sound = YAG_Move_05
+		sound = YAG_Move_06
 
     }
 	max_audible = 1
@@ -1792,227 +1778,227 @@ sound =
 }
 
 
-########### TST
+########### YAG
 
 sound = 
 {
-	name = "TST_Idle_01"
-	file = "TST/TST_idle_01.wav"
+	name = "YAG_Idle_01"
+	file = "YAG/YAG_idle_01.wav"
 }
 sound = 
 {
-	name = "TST_Idle_02"
-	file = "TST/TST_idle_02.wav"
+	name = "YAG_Idle_02"
+	file = "YAG/YAG_idle_02.wav"
 }
 sound = 
 {
-	name = "TST_Idle_03"
-	file = "TST/TST_idle_03.wav"
+	name = "YAG_Idle_03"
+	file = "YAG/YAG_idle_03.wav"
 }
 sound = 
 {
-	name = "TST_Idle_04"
-	file = "TST/TST_idle_04.wav"
+	name = "YAG_Idle_04"
+	file = "YAG/YAG_idle_04.wav"
 }
 sound = 
 {
-	name = "TST_Idle_05"
-	file = "TST/TST_idle_05.wav"
+	name = "YAG_Idle_05"
+	file = "YAG/YAG_idle_05.wav"
 }
 sound = 
 {
-	name = "TST_Idle_06"
-	file = "TST/TST_idle_06.wav"
+	name = "YAG_Idle_06"
+	file = "YAG/YAG_idle_06.wav"
 }
 sound = 
 {
-	name = "TST_Idle_07"
-	file = "TST/TST_idle_07.wav"
+	name = "YAG_Idle_07"
+	file = "YAG/YAG_idle_07.wav"
 }
 sound = 
 {
-	name = "TST_Idle_08"
-	file = "TST/TST_idle_08.wav"
+	name = "YAG_Idle_08"
+	file = "YAG/YAG_idle_08.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_09"
-	file = "TST/TST_idle_09.wav"
+	name = "YAG_Idle_09"
+	file = "YAG/YAG_idle_09.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_10"
-	file = "TST/TST_idle_10.wav"
+	name = "YAG_Idle_10"
+	file = "YAG/YAG_idle_10.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_11"
-	file = "TST/TST_idle_11.wav"
+	name = "YAG_Idle_11"
+	file = "YAG/YAG_idle_11.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_12"
-	file = "TST/TST_idle_12.wav"	
+	name = "YAG_Idle_12"
+	file = "YAG/YAG_idle_12.wav"	
 }	
 sound = 
 {
-	name = "TST_Idle_13"
-	file = "TST/TST_idle_13.wav"
+	name = "YAG_Idle_13"
+	file = "YAG/YAG_idle_13.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_14"
-	file = "TST/TST_idle_14.wav"
+	name = "YAG_Idle_14"
+	file = "YAG/YAG_idle_14.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_15"
-	file = "TST/TST_idle_15.wav"
+	name = "YAG_Idle_15"
+	file = "YAG/YAG_idle_15.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_16"
-	file = "TST/TST_idle_16.wav"
+	name = "YAG_Idle_16"
+	file = "YAG/YAG_idle_16.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_17"
-	file = "TST/TST_idle_17.wav"
+	name = "YAG_Idle_17"
+	file = "YAG/YAG_idle_17.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_18"
-	file = "TST/TST_idle_18.wav"
+	name = "YAG_Idle_18"
+	file = "YAG/YAG_idle_18.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_19"
-	file = "TST/TST_idle_19.wav"
+	name = "YAG_Idle_19"
+	file = "YAG/YAG_idle_19.wav"
 }	
 sound = 
 {
-	name = "TST_Idle_20"
-	file = "TST/TST_idle_20.wav"
-}
-
-
-
-sound = 
-{
-	name = "TST_Winning_01"
-	file = "TST/TST_Winning_01.wav"
-}
-sound = 
-{
-	name = "TST_Winning_02"
-	file = "TST/TST_Winning_02.wav"
-}
-sound = 
-{
-	name = "TST_Winning_03"
-	file = "TST/TST_Winning_03.wav"
+	name = "YAG_Idle_20"
+	file = "YAG/YAG_idle_20.wav"
 }
 
 
 
 sound = 
 {
-	name = "TST_Retreat_01"
-	file = "TST/TST_retreat_01.wav"
+	name = "YAG_Winning_01"
+	file = "YAG/YAG_Winning_01.wav"
 }
 sound = 
 {
-	name = "TST_Retreat_02"
-	file = "TST/TST_retreat_02.wav"
+	name = "YAG_Winning_02"
+	file = "YAG/YAG_Winning_02.wav"
 }
 sound = 
 {
-	name = "TST_Retreat_03"
-	file = "TST/TST_retreat_03.wav"
+	name = "YAG_Winning_03"
+	file = "YAG/YAG_Winning_03.wav"
 }
 
 
 
 sound = 
 {
-	name = "TST_Combat_01"
-	file = "TST/TST_combat_01.wav"
+	name = "YAG_Retreat_01"
+	file = "YAG/YAG_retreat_01.wav"
 }
 sound = 
 {
-	name = "TST_Combat_02"
-	file = "TST/TST_combat_02.wav"
+	name = "YAG_Retreat_02"
+	file = "YAG/YAG_retreat_02.wav"
+}
+sound = 
+{
+	name = "YAG_Retreat_03"
+	file = "YAG/YAG_retreat_03.wav"
+}
+
+
+
+sound = 
+{
+	name = "YAG_Combat_01"
+	file = "YAG/YAG_combat_01.wav"
+}
+sound = 
+{
+	name = "YAG_Combat_02"
+	file = "YAG/YAG_combat_02.wav"
 }
 sound = 
 {	
-	name = "TST_Combat_03"
-	file = "TST/TST_combat_03.wav"
+	name = "YAG_Combat_03"
+	file = "YAG/YAG_combat_03.wav"
 }
 sound = 
 {
-	name = "TST_Combat_04"
-	file = "TST/TST_combat_04.wav"
+	name = "YAG_Combat_04"
+	file = "YAG/YAG_combat_04.wav"
 }
 sound = 
 {
-	name = "TST_Combat_05"
-	file = "TST/TST_combat_05.wav"
+	name = "YAG_Combat_05"
+	file = "YAG/YAG_combat_05.wav"
 }
 sound = 
 {
-	name = "TST_Combat_06"
-	file = "TST/TST_combat_06.wav"
+	name = "YAG_Combat_06"
+	file = "YAG/YAG_combat_06.wav"
 }
 sound = 
 {
-	name = "TST_Combat_07"
-	file = "TST/TST_combat_07.wav"
+	name = "YAG_Combat_07"
+	file = "YAG/YAG_combat_07.wav"
 }
 sound = 
 {
-	name = "TST_Combat_08"
-	file = "TST/TST_combat_08.wav"	
+	name = "YAG_Combat_08"
+	file = "YAG/YAG_combat_08.wav"	
 }
 sound = 
 {
-	name = "TST_Combat_09"
-	file = "TST/TST_combat_09.wav"
+	name = "YAG_Combat_09"
+	file = "YAG/YAG_combat_09.wav"
 }
 sound = 
 {
-	name = "TST_Combat_10"
-	file = "TST/TST_combat_10.wav"	
+	name = "YAG_Combat_10"
+	file = "YAG/YAG_combat_10.wav"	
 }
 
 
 
 sound = 
 {
-	name = "TST_Move_01"
-	file = "TST/TST_move_01.wav"
+	name = "YAG_Move_01"
+	file = "YAG/YAG_move_01.wav"
 }
 sound = 
 {
-	name = "TST_Move_02"
-	file = "TST/TST_move_02.wav"
+	name = "YAG_Move_02"
+	file = "YAG/YAG_move_02.wav"
 }
 sound = 
 {
-	name = "TST_Move_03"
-	file = "TST/TST_move_03.wav"
+	name = "YAG_Move_03"
+	file = "YAG/YAG_move_03.wav"
 }
 sound = 
 {
-	name = "TST_Move_04"
-	file = "TST/TST_move_04.wav"
+	name = "YAG_Move_04"
+	file = "YAG/YAG_move_04.wav"
 }
 sound = 
 {
-	name = "TST_Move_05"
-	file = "TST/TST_move_05.wav"
+	name = "YAG_Move_05"
+	file = "YAG/YAG_move_05.wav"
 }
 sound = 
 {
-	name = "TST_Move_06"
-	file = "TST/TST_move_06.wav"
+	name = "YAG_Move_06"
+	file = "YAG/YAG_move_06.wav"
 }

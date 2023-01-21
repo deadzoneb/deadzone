@@ -25,5 +25,7 @@ replace_path="gfx/interface/goals"
 replace_path="common/defines"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
+replace_path="music"
+
 supported_version="1.12.8"
 remote_file_id="2900871067"
