@@ -1,0 +1,19 @@
+
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = YAG
+		add_core_of = YAG
+
+	}
+
+	provinces={
+		144 538 964 1658 1786 2659 2754 3337 4373 4726 6013 6214 9348 9382 9385 9410 9495 9532 
+	}
+	manpower=5
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
