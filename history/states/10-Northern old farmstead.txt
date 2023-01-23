@@ -4,6 +4,10 @@ state={
 	provinces={
 		388 589 1438 3246 3577 3639 3759 4063 6476 6816 7450 7467 7953 
 	}
-	manpower = 3
+	manpower = 7
 	state_category = rural
+	history={
+		owner = SIN
+		victory_points = { 7467 1 }
+		add_core_of = SIN
 }
