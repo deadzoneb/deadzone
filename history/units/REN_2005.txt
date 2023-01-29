@@ -20,8 +20,68 @@ units = {
 		start_equipment_factor = 0.15
 		start_manpower_factor = 0.15
 
+	}	
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7622
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
 	}
-}	
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1283
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4446
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1401
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
 
 add_equipment_production = {
 	equipment = {

@@ -21,8 +21,50 @@ units = {
 		start_experience_factor = 1.00
 		start_equipment_factor = 1.00
 
+	} 
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1687
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 1.00
+		start_equipment_factor = 1.00
+
 	}
-}	
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 283
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 1.00
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10326
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 1.00
+		start_equipment_factor = 1.00
+
+	}
+}
 
 add_equipment_production = {
 	equipment = {

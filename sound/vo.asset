@@ -408,7 +408,7 @@ soundeffect =
 }
 
 
-########## REN_renegaty ########## 
+########## REN_renegat ########## 
 
 soundeffect = 
 {
@@ -865,7 +865,6 @@ sound =
 }
 
 
-
 sound = 
 {
 	name = "YAG_Retreat_01"
@@ -881,7 +880,6 @@ sound =
 	name = "YAG_Retreat_03"
 	file = "YAG/YAG_retreat_03.wav"
 }
-
 
 
 sound = 
