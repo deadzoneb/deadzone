@@ -4,6 +4,10 @@ state={
 	provinces={
 		693 1152 1959 2452 3071 3772 4387 5245 5375 6120 6239 6454 6564 9188 9318 
 	}
-	manpower = 3
+	manpower = 50
 	state_category = rural
+	history={
+		owner = USA
+		victory_points = { 1959 10 }
+		add_core_of = USA
 }
